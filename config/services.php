@@ -38,8 +38,8 @@ return [
     'yh-finance' => [
         'root_url' => env('YH_FINANCE_ROOT_URL', 'https://yh-finance.p.rapidapi.com/stock/v3/get-historical-data'),
         'header_parameters' => [
-            'x-rapidapi-key' => env('YH_FINANCE_X_RAPIDAPI_KEY','c55d8fd8b4mshcc8b6d24405b015p1f1e34jsnc23f280a5192'),
-            'x-rapidapi-host' => env('YH_FINANCE_X_RAPIDAPI_HOST','yh-finance.p.rapidapi.com'),
+            'x-rapidapi-key' => env('YH_FINANCE_X_RAPIDAPI_KEY',''),
+            'x-rapidapi-host' => env('YH_FINANCE_X_RAPIDAPI_HOST',''),
         ]
     ]
 
